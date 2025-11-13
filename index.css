@@ -8,6 +8,13 @@
 body {
     margin: 0;
     background-color: #1B244A;
+    background-image: url('Images/basketball-black-3440x1440-17410.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -26,7 +33,6 @@ body {
 }
 
 .background-score{
-    background-color: #080001;
 }
 
 .colorTime {
@@ -53,7 +59,7 @@ body {
 
 .plusButton,.minusButton {
     border-color: #9AABD8;
-    background-color: #1B244A;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #9AABD8;
     width: 60px;
     height: 40px;
@@ -62,7 +68,7 @@ body {
 
 .resetButton {
     border-color: #9AABD8;
-    background-color: #1B244A;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #9AABD8;
 }
 
@@ -121,7 +127,7 @@ button {
     font-size: 18px;
     border-radius: 8px;
     border: 2px solid #9AABD8;
-    background-color: #1B244A;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #9AABD8;
     cursor: pointer;
     margin-top: 10px;
